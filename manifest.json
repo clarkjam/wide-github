@@ -10,7 +10,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*", "https://gist.github.com/*"],
+      "matches": ["https://github.com/*", "https://gist.github.com/*", "https://github.dev.xero.com/*", "https://gist.github.dev.xero.com/*"],
       "css": ["wide-github.css"],
       "js": ["wide-github-toggle.js"]
     }
